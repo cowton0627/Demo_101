@@ -7,10 +7,34 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            List(){
+                HStack{
+                    Spacer()
+                    PortraitImage()
+                    Spacer()
+                }
+                VStack{
+                    LabelTextField(label: "Name", placeHolder: "Fill in your name")
+                    LabelTextField(label: "Gender", placeHolder: "Fill in your gender")
+                    LabelTextField(label: "Address", placeHolder: "Fill in your address")
+                    LabelTextField(label: "Phone", placeHolder: "Your phone number")
+                    
+
+                    
+                }
+                .listRowInsets(EdgeInsets())
+            }
+            SendedButton()
+                .padding(.top, 20)
+            
+        }
+       
+        
     }
 }
 

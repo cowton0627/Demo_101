@@ -13,6 +13,14 @@
 		29F3A1CA26A80599003DA9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F3A1C926A80599003DA9A3 /* Assets.xcassets */; };
 		29F3A1CD26A80599003DA9A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F3A1CC26A80599003DA9A3 /* Preview Assets.xcassets */; };
 		29F3A1D026A80599003DA9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F3A1CE26A80599003DA9A3 /* LaunchScreen.storyboard */; };
+		29F3A1D826A80925003DA9A3 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1D726A80925003DA9A3 /* Employee.swift */; };
+		29F3A1DB26A80A9A003DA9A3 /* employee.json in Resources */ = {isa = PBXBuildFile; fileRef = 29F3A1DA26A80A9A003DA9A3 /* employee.json */; };
+		29F3A1DF26A80CE8003DA9A3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1DE26A80CE8003DA9A3 /* Data.swift */; };
+		29F3A1E226A81004003DA9A3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1E126A81004003DA9A3 /* CircleImage.swift */; };
+		29F3A1E526A8123D003DA9A3 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1E426A8123D003DA9A3 /* EmployeeRow.swift */; };
+		29F3A1E726A831E3003DA9A3 /* LabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1E626A831E3003DA9A3 /* LabelTextField.swift */; };
+		29F3A1E926A83564003DA9A3 /* PortraitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1E826A83564003DA9A3 /* PortraitImage.swift */; };
+		29F3A1EB26A839FB003DA9A3 /* SendedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3A1EA26A839FB003DA9A3 /* SendedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		29F3A1CC26A80599003DA9A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29F3A1CF26A80599003DA9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F3A1D126A80599003DA9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F3A1D726A80925003DA9A3 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		29F3A1DA26A80A9A003DA9A3 /* employee.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = employee.json; sourceTree = "<group>"; };
+		29F3A1DE26A80CE8003DA9A3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		29F3A1E126A81004003DA9A3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		29F3A1E426A8123D003DA9A3 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		29F3A1E626A831E3003DA9A3 /* LabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextField.swift; sourceTree = "<group>"; };
+		29F3A1E826A83564003DA9A3 /* PortraitImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitImage.swift; sourceTree = "<group>"; };
+		29F3A1EA26A839FB003DA9A3 /* SendedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,10 @@
 				29F3A1C326A80596003DA9A3 /* AppDelegate.swift */,
 				29F3A1C526A80596003DA9A3 /* SceneDelegate.swift */,
 				29F3A1C726A80596003DA9A3 /* ContentView.swift */,
+				29F3A1E026A80D15003DA9A3 /* Data */,
 				29F3A1C926A80599003DA9A3 /* Assets.xcassets */,
+				29F3A1E326A81015003DA9A3 /* View */,
+				29F3A1D926A80A64003DA9A3 /* Model */,
 				29F3A1CE26A80599003DA9A3 /* LaunchScreen.storyboard */,
 				29F3A1D126A80599003DA9A3 /* Info.plist */,
 				29F3A1CB26A80599003DA9A3 /* Preview Content */,
@@ -73,6 +92,35 @@
 				29F3A1CC26A80599003DA9A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29F3A1D926A80A64003DA9A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29F3A1D726A80925003DA9A3 /* Employee.swift */,
+				29F3A1DA26A80A9A003DA9A3 /* employee.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29F3A1E026A80D15003DA9A3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				29F3A1DE26A80CE8003DA9A3 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		29F3A1E326A81015003DA9A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29F3A1E626A831E3003DA9A3 /* LabelTextField.swift */,
+				29F3A1EA26A839FB003DA9A3 /* SendedButton.swift */,
+				29F3A1E826A83564003DA9A3 /* PortraitImage.swift */,
+				29F3A1E126A81004003DA9A3 /* CircleImage.swift */,
+				29F3A1E426A8123D003DA9A3 /* EmployeeRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F3A1D026A80599003DA9A3 /* LaunchScreen.storyboard in Resources */,
+				29F3A1DB26A80A9A003DA9A3 /* employee.json in Resources */,
 				29F3A1CD26A80599003DA9A3 /* Preview Assets.xcassets in Resources */,
 				29F3A1CA26A80599003DA9A3 /* Assets.xcassets in Resources */,
 			);
@@ -146,8 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F3A1C426A80596003DA9A3 /* AppDelegate.swift in Sources */,
+				29F3A1E926A83564003DA9A3 /* PortraitImage.swift in Sources */,
+				29F3A1DF26A80CE8003DA9A3 /* Data.swift in Sources */,
+				29F3A1D826A80925003DA9A3 /* Employee.swift in Sources */,
+				29F3A1E726A831E3003DA9A3 /* LabelTextField.swift in Sources */,
 				29F3A1C626A80596003DA9A3 /* SceneDelegate.swift in Sources */,
 				29F3A1C826A80596003DA9A3 /* ContentView.swift in Sources */,
+				29F3A1E226A81004003DA9A3 /* CircleImage.swift in Sources */,
+				29F3A1EB26A839FB003DA9A3 /* SendedButton.swift in Sources */,
+				29F3A1E526A8123D003DA9A3 /* EmployeeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
