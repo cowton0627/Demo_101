@@ -9,15 +9,16 @@ import Foundation
 import SwiftUI
 
 struct Employee: Identifiable, Codable, Hashable {
-    var id: Int
     var userId: String
     var jobTitleName: String
     var firstName: String
     var lastName: String
     var preferredFullName: String
+    var id: String
     var region: String
     var phoneNumber: String
     var emailAddress: String
     var image: String
  
 }
+

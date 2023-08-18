@@ -9,9 +9,11 @@ import Foundation
 import SwiftUI
 
 struct PortraitImage: View {
+    var imageName: String
     
-    public var body: some View {
-        Image("001")
+    var body: some View {
+        
+        Image(imageName)
             .resizable()
             .scaledToFill()
             .frame(width: 300, height: 350, alignment: .center)
@@ -21,11 +23,18 @@ struct PortraitImage: View {
 }
 
 
-
-
 struct PortraitImage_Previews: PreviewProvider {
     static var previews: some View {
-        PortraitImage()
+        Group {
+            PortraitImage(imageName: "001")
+//            PortraitImage(imageName: "002")
+//            PortraitImage(imageName: "003")
+//            PortraitImage(imageName: "004")
+//            PortraitImage(imageName: "005")
+//            PortraitImage(imageName: "006")
+
+        }
+
     }
 
 

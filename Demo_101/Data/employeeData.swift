@@ -1,21 +1,19 @@
 //
-//  Data.swift
+//  employeeData.swift
 //  Demo_101
 //
 //  Created by 鄭淳澧 on 2021/7/21.
 //
 
 import Foundation
-import SwiftUI
 
 let employeeData: [Employee] = load("employee.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
-    let data:Data
+    let data: Data
     
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-        else {
-            fatalError("Couldn't find \(filename) in main bundle.")
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil) else {
+        fatalError("Couldn't find \(filename) in main bundle.")
     }
     
     do {
@@ -28,8 +26,7 @@ func load<T: Decodable>(_ filename: String) -> T {
         let decorder = JSONDecoder()
         return try decorder.decode(T.self, from: data)
     } catch {
-        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+        fatalError("Couldn't parse \(filename) as \(T.self): \n\(error)")
     }
-    
     
 }

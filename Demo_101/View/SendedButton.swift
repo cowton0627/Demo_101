@@ -9,8 +9,10 @@ import Foundation
 import SwiftUI
 
 struct SendedButton: View {
+    
     var body: some View {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+        
+        Button(action: { print("Send") }, label: {
             Spacer()
             Text("送出")
                 .font(.title2)
@@ -18,10 +20,11 @@ struct SendedButton: View {
                 .foregroundColor(.white)
             Spacer()
         })
-        .padding(.vertical, 10.0)
+        .padding(.vertical, 10)
         .background(Color.blue)
         .cornerRadius(4.0)
         .padding(.horizontal, 30)
+
     }
 }
 

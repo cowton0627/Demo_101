@@ -10,6 +10,7 @@ import SwiftUI
 
 struct EmployeeRow: View {
     var employee: Employee
+    
     var body: some View {
         HStack {
             CircleImage(imageName: employee.image, size: 80)
@@ -27,8 +28,8 @@ struct EmployeeRow: View {
 
 struct EmployeeRow_Previews: PreviewProvider {
     static var previews: some View {
-        EmployeeRow(employee: employeeData[0])
-            .previewLayout(.fixed(width: 320, height: 60))
+        EmployeeRow(employee: employeeData[5])
+//            .previewLayout(.fixed(width: 320, height: 60))
     }
     
 }

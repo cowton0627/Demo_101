@@ -1,0 +1,25 @@
+
+[
+    
+    {
+        "id": "1",
+        "one":"Name",
+        "two":"Fill in your name"
+    },
+    {
+        "id": "2",
+        "one":"Gender",
+        "two":"Fill in your gender"
+    },
+    {
+        "id": "3",
+        "one":"Address",
+        "two":"Fill in your address"
+    },
+    {
+        "id": "4",
+        "one":"Phone",
+        "two":"Fill in your phone number"
+    }
+
+]
